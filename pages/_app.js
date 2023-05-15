@@ -12,7 +12,7 @@ function MyApp({ Component, pageProps }) {
     <React.Fragment>
       <GoogleFonts href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" />
       <Head>
-        <title>Lift Workout App</title>
+        <title>GymRoutines</title>
         <meta name="Description" content="This is a home page of my website!" />
         <meta name="title" property="og:title" content="GymRoutines" />
         <meta property="og:type" content="Website" />
@@ -20,7 +20,7 @@ function MyApp({ Component, pageProps }) {
         <meta name="author" content="Rohan Wadhwa" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
-        <link rel="icon" type="image/png" href="/favicon-32x32.png"/>
+        <link rel="shortcut icon" href="/favicon/favicon.ico" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <AuthProvider>
