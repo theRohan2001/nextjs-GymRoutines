@@ -20,10 +20,7 @@ function MyApp({ Component, pageProps }) {
         <meta name="author" content="Rohan Wadhwa" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
-        <link rel="apple-touch-icon" sizes="180x180" href="public/favicon/apple-touch-icon.png"/>
-        <link rel="icon" type="image/png" sizes="32x32" href="public/favicon/favicon-32x32.png"/>
-        <link rel="icon" type="image/png" sizes="16x16" href="public/favicon/favicon-16x16.png"/>
-        <link rel="manifest" href="public/favicon/site.webmanifest"/>
+        <link rel="icon" type="image/png" href="/favicon-32x32.png"/>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <AuthProvider>
